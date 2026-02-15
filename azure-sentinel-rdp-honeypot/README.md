@@ -19,7 +19,7 @@ This repository demonstrates practical, defensive security engineering aligned w
 - Windows Virtual Machine (RDP exposed)
 - Network Security Group (NSG)
 - Log Analytics Workspace
-- Microsoft Sentinel (SIEM)
+- Microsoft Sentinel (SIEM) 
 - Azure Monitor / Data Collection Rules (DCR)
 - Microsoft Defender for Cloud (baseline telemetry)
 - Sentinel Watchlists (Threat Intelligence Simulation)
