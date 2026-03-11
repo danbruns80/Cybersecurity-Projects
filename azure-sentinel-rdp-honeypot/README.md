@@ -1,6 +1,6 @@
 # Azure Sentinel RDP Honeypot & Threat Telemetry Visualization
 
-![Failed RDP World Map](images/14-world-map.png)
+![Failed RDP World Map](14-world-map.png)
 
 ## Overview
 
@@ -89,10 +89,10 @@ A Windows virtual machine was created in Azure to act as the exposed RDP endpoin
 - NIC attached to virtual network and subnet
 
 ### VM Overview
-![VM Overview](images/01-vm-overview.png)
+![VM Overview](01-vm-overview.png)
 
 ### Resource Group Overview
-![Resource Group Overview](images/03-resource-group-overview.png)
+![Resource Group Overview](03-resource-group-overview.png)
 
 ---
 
@@ -108,7 +108,7 @@ The honeypot VM was intentionally exposed to inbound internet traffic so it coul
 - Inbound rules validated
 
 ### Network Security Configuration
-![Network Settings and NSG](images/02-network-settings-nsg.png)
+![Network Settings and NSG](02-network-settings-nsg.png)
 
 ---
 
@@ -117,7 +117,7 @@ The honeypot VM was intentionally exposed to inbound internet traffic so it coul
 A Log Analytics Workspace was created to receive and store security telemetry from the honeypot.
 
 ### Log Analytics Workspace
-![Log Analytics Workspace Overview](images/04-log-analytics-workspace.png)
+![Log Analytics Workspace Overview](04-log-analytics-workspace.png)
 
 ---
 
@@ -126,7 +126,7 @@ A Log Analytics Workspace was created to receive and store security telemetry fr
 A Data Collection Rule was created to define what Windows telemetry would be collected and where it would be sent.
 
 ### DCR Configuration
-![DCR Overview](images/05-dcr-overview.png)
+![DCR Overview](05-dcr-overview.png)
 
 ---
 
@@ -148,10 +148,10 @@ FAILED_RDP_WITH_GEO_CL
 ```
 
 ### Log Query Results
-![Log Analytics Query Results](images/06-log-analytics-query-results.png)
+![Log Analytics Query Results](06-log-analytics-query-results.png)
 
 ### Log Query Chart
-![Log Analytics Query Chart](images/07-log-analytics-chart.png)
+![Log Analytics Query Chart](07-log-analytics-chart.png)
 
 ---
 
@@ -160,7 +160,7 @@ FAILED_RDP_WITH_GEO_CL
 Microsoft Sentinel was connected to the workspace to enable SIEM functionality.
 
 ### Sentinel Overview
-![Sentinel Overview](images/08-sentinel-overview.png)
+![Sentinel Overview](08-sentinel-overview.png)
 
 ---
 
@@ -178,10 +178,10 @@ FAILED_RDP_WITH_GEO_CL
 ```
 
 ### Analytics Rules
-![Analytics Rules](images/09-analytics-rules.png)
+![Analytics Rules](09-analytics-rules.png)
 
 ### Analytics Rule Detail
-![Analytics Rule Detail](images/10-analytics-rule-details.png)
+![Analytics Rule Detail](10-analytics-rule-details.png)
 
 ---
 
@@ -190,10 +190,10 @@ FAILED_RDP_WITH_GEO_CL
 Watchlists were created to simulate threat intelligence enrichment.
 
 ### Watchlist
-![Threat Intel Watchlist](images/11-threatintel-watchlist.png)
+![Threat Intel Watchlist](11-threatintel-watchlist.png)
 
 ### Watchlist Query
-![Watchlist Query](images/12-watchlist-query.png)
+![Watchlist Query](12-watchlist-query.png)
 
 ---
 
@@ -216,7 +216,7 @@ FAILED_RDP_WITH_GEO_CL
 Sentinel automation rules were configured to trigger response actions.
 
 ### Automation Rule
-![Automation Rule](images/13-automation-rule.png)
+![Automation Rule](13-automation-rule.png)
 
 ---
 
@@ -225,10 +225,10 @@ Sentinel automation rules were configured to trigger response actions.
 A Sentinel workbook was created to visualize attack origins on a world map.
 
 ### World Attack Map
-![Failed RDP World Map](images/14-world-map.png)
+![Failed RDP World Map](14-world-map.png)
 
 ### Map Query
-![World Map Query](images/15-world-map-query.png)
+![World Map Query](15-world-map-query.png)
 
 ---
 
@@ -269,5 +269,4 @@ A Sentinel workbook was created to visualize attack origins on a world map.
 # Author
 
 **Dan Bruns**  
-IT Systems & Cybersecurity Focus  
-SIEM | Detection Engineering | Cloud Security
+SOC/SIEM | Detection Engineering | Cloud Security
